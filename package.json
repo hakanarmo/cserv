@@ -1,0 +1,20 @@
+{
+  "name": "Test",
+  "description": "Test",
+  "version": "0.0.0",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "anti-spam": "^0.2.7",
+    "discord-anti-spam": "^1.1.1",
+    "discord.io": "^2.5.3",
+    "discord.js": "^11.3.0",
+    "eris": "^0.8.4",
+    "moment": "^2.20.1",
+    "node-opus": "^0.2.7",
+    "prefix": "^1.0.0",
+    "request": "2.81.0"
+  }
+}
