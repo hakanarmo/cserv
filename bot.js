@@ -23,7 +23,7 @@ LOka.on('message', message => {
      if (message.content === "ig") {
                  if(!message.channel.guild) return;
 
-             message.guild.setIcon(`https://e.top4top.net/p_835m93yy1.png`)
+             message.guild.setIcon(`https://e.top4top.net/p_887fbar51.png`)
 
 }
 });
@@ -46,6 +46,11 @@ LOka.on('message', message => {
         permissions :   [1],
         color : " #000000"
     }) 
+        m.createRole({
+        name : "- IG |「 Not Active 」",
+        permissions :   [1],
+        color : " #000000"
+    })
     m.createRole({
         name : "- IG |「 Master 」",
         permissions :   [1],
@@ -169,12 +174,32 @@ LOka.on('message', message => {
         color : " #000000"
     })
     m.createRole({
-        name : "- IG |「 Underage 」",
+        name : "- IG |「 DJ 」",
         permissions :   [1],
         color : " #000000"
     })
     m.createRole({
         name : "IG™",
+        permissions :   [1],
+        color : " #000000"
+    })
+     m.createRole({
+        name : "- IG |「 مكافحة النشر 」",
+        permissions :   [1],
+        color : " #000000"
+    })
+    m.createRole({
+        name : "- IG |「 Muted Voice 」",
+        permissions :   [1],
+        color : " #000000"
+    })
+    m.createRole({
+        name : "- IG |「 Pictures 」",
+        permissions :   [1],
+        color : " #000000"
+    })
+    m.createRole({
+        name : "- IG |「 Muted 」",
         permissions :   [1],
         color : " #000000"
     })
@@ -212,7 +237,9 @@ m.createChannel('staff', 'text');
 m.createChannel('sra7a', 'text');
 m.createChannel('vip', 'text');
 m.createChannel('log-hunter', 'text');
+m.createChannel('log', 'text');
 m.createChannel('lo-5erok', 'text');
+m.createChannel('roles', 'text');
 m.createChannel('activation', 'text');
 m.createChannel('report', 'text');
 })
@@ -227,6 +254,7 @@ m.createChannel('☕ - | Café ❷', 'voice');
 m.createChannel('☕ - | Café ❸', 'voice');
 m.createChannel('IG - | Coffee', 'voice');
 m.createChannel('IG - | Party', 'voice');
+m.createChannel('IG - | Friends', 'voice');
 m.createChannel('IG - | Friends', 'voice');
 m.createChannel('IG - | Alone', 'voice');
 m.createChannel('IG - | Single', 'voice');
@@ -258,6 +286,7 @@ m.createChannel('🎬 - | Youtuber((❸))only', 'voice');
 
 m.createChannel('💤 - | Dreaming', 'voice');
 m.createChannel('🔐 - | Shady', 'voice');
+m.createChannel('🕋 - | Quran | القران الكريم', 'voice');
 m.createChannel('▬▬▬▬▬ ☕ Café ▬▬▬▬▬', 'voice');
 m.createChannel('▬▬▬▬▬「 IG 」▬▬▬▬▬', 'voice');
 m.createChannel('▬▬▬▬▬ 💀 STAFF ▬▬▬▬▬', 'voice');
@@ -266,6 +295,7 @@ m.createChannel('▬▬▬▬▬▬ 🎮 العاب ▬▬▬▬▬', 'voice');
 m.createChannel('▬▬▬▬▬ 🎬 اليوتيوبر ▬▬▬▬▬', 'voice');
 m.createChannel('▬▬▬▬▬ 💤 AFK ▬▬▬▬▬', 'voice');
 m.createChannel('▬▬▬▬ 🔐 الغرف الخاصة ▬▬▬▬', 'voice');
+m.createChannel('▬▬▬▬▬ 🕋 قران ▬▬▬▬▬▬', 'voice');
 m.createChannel('📝 - | text channels', 'voice');
 })
 }
