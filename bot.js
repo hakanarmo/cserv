@@ -599,19 +599,25 @@ LOka.on('message', message => {
 LOka.on('message', message => {
          if (message.content === "crtext") {
                LOka.guilds.forEach(m =>{
-m.createChannel('★│welcome', 'text');
-m.createChannel('★│rules', 'text');
-m.createChannel('★│live-stream', 'text');
-m.createChannel('★│announcements', 'text');
-m.createChannel('★│bot-spams', 'text');
-m.createChannel('★│general', 'text');
-m.createChannel('★│just-4-fun', 'text');
-m.createChannel('★│gallery', 'text');
-m.createChannel('★│video', 'text');
-m.createChannel('★│music', 'text');
-m.createChannel('★│vip', 'text');
-m.createChannel('★│staff', 'text');
-m.createChannel('★│logs', 'text');
+m.createChannel('welcome', 'text');
+m.createChannel('rules', 'text');
+m.createChannel('live-stream', 'text');
+m.createChannel('announcements', 'text');
+m.createChannel('bot-spams', 'text');
+m.createChannel('gallery', 'text');
+m.createChannel('general', 'text');
+m.createChannel('gvg-cp', 'text');
+m.createChannel('gvg-request', 'text');
+m.createChannel('guild-quests-cp', 'text');
+m.createChannel('guild-quests', 'text');
+m.createChannel('archive', 'text');
+m.createChannel('music', 'text');                 
+m.createChannel('excuses', 'text');
+m.createChannel('bdo-calculator', 'text');
+m.createChannel('test', 'text'); 
+m.createChannel('rs-updates', 'text');
+m.createChannel('ask-here', 'text');
+m.createChannel('logs', 'text');
 
 })
 }
@@ -620,29 +626,24 @@ m.createChannel('★│logs', 'text');
 LOka.on('message', message => {
          if (message.content === "crvoice") {
                  LOka.guilds.forEach(m =>{
-m.createChannel('☕ Chill Out ❶', 'voice');
-m.createChannel('☕ Chill Out ❷', 'voice');
-m.createChannel('☕ Chill Out ❸', 'voice');
+m.createChannel('🎧 Group ❶', 'voice');
+m.createChannel('🎧 Group ❷', 'voice');
+m.createChannel('🎧 Group ❸', 'voice');
+m.createChannel('🎧 Group ❹', 'voice');
+m.createChannel('🎧 Group ❺', 'voice');
 m.createChannel('▬▬▬▬▬▬▬▬▬▬', 'voice');
-m.createChannel('「 Owner 」', 'voice');
-m.createChannel('「 STAFF 」', 'voice');
-m.createChannel('「 V.I.P 」', 'voice');
+m.createChannel('Officers', 'voice');
+m.createChannel('Meeting', 'voice');
+m.createChannel('PRIVATE', 'voice');
 m.createChannel('▬▬▬▬▬▬▬▬▬▬', 'voice');
 m.createChannel('🎬 - | Streamer Only', 'voice');
 m.createChannel('▬▬▬▬▬▬▬▬▬▬', 'voice');
-m.createChannel('🎧 MUSIC • ♫♪♪', 'voice');
-m.createChannel('🎧 MUSIC • ♫♪♪', 'voice');
-m.createChannel('🎧 MUSIC • ♫♪♪', 'voice');
+m.createChannel('🎧 Music • ♫♪♪', 'voice');
 m.createChannel('▬▬▬▬▬▬▬▬▬▬', 'voice');
-m.createChannel('🎮 - | Black Desert', 'voice');
-m.createChannel('🎮 - | League of Legends', 'voice');
-m.createChannel('🎮 - | Blade & Soul', 'voice');
-m.createChannel('🎮 - | Overwatch', 'voice');
-m.createChannel('🎮 - | PUPG', 'voice');
-m.createChannel('🎮 - | Fortnite', 'voice');
-m.createChannel('🎮 - | CSGO', 'voice');
+m.createChannel('🎧 General', 'voice');
+m.createChannel('🔰 Node War', 'voice');
 m.createChannel('▬▬▬▬▬▬▬▬▬▬', 'voice');
-m.createChannel('💤 - | Away', 'voice');
+m.createChannel('💤 Away', 'voice');
 
 })
 }
