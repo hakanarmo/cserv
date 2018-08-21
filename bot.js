@@ -717,7 +717,6 @@ LOka.on('message', message => {
 })
  
  
-}
 });
        
 LOka.on('message', message => {
