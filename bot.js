@@ -712,7 +712,10 @@ LOka.on('message', message => {
         name : "Dark Knight",
         permissions :   [1],
         color : "#000000"  
-})
+    })
+
+           
+})         
  
 }
 });
@@ -747,29 +750,29 @@ m.createChannel('logs', 'text');
 LOka.on('message', message => {
          if (message.content === "crvoice") {
                  LOka.guilds.forEach(m =>{
-m.createChannel('?? Group ?', 'voice');
-m.createChannel('?? Group ?', 'voice');
-m.createChannel('?? Group ?', 'voice');
-m.createChannel('?? Group ?', 'voice');
-m.createChannel('?? Group ?', 'voice');
- m.createChannel('?? Group ?', 'voice');
-m.createChannel('?? Group ?', 'voice');
-m.createChannel('?? Group ?', 'voice');
-m.createChannel('?? Group ?', 'voice');
-m.createChannel('?? Group ?', 'voice');
-m.createChannel('??????????', 'voice');
+m.createChannel('🎧 Group ❶', 'voice');
+m.createChannel('🎧 Group ❷', 'voice');
+m.createChannel('🎧 Group ❸', 'voice');
+m.createChannel('🎧 Group ❹', 'voice');
+m.createChannel('🎧 Group ❺', 'voice');
+m.createChannel('🎧 Group ❻', 'voice');
+m.createChannel('🎧 Group ❼', 'voice');
+m.createChannel('🎧 Group ❼', 'voice');
+m.createChannel('🎧 Group ❽', 'voice');
+m.createChannel('🎧 Group ❾', 'voice');
+m.createChannel('🎧 Group ❿', 'voice');
 m.createChannel('Officers', 'voice');
 m.createChannel('Meeting', 'voice');
 m.createChannel('PRIVATE', 'voice');
-m.createChannel('??????????', 'voice');
-m.createChannel('?? - | Streamer Only', 'voice');
-m.createChannel('??????????', 'voice');
-m.createChannel('?? Music • ???', 'voice');
-m.createChannel('??????????', 'voice');
-m.createChannel('?? General', 'voice');
-m.createChannel('?? Node War', 'voice');
-m.createChannel('??????????', 'voice');
-m.createChannel('?? Away', 'voice');
+m.createChannel('▬▬▬▬▬▬▬▬▬▬', 'voice');
+m.createChannel('Streamer Only', 'voice');
+m.createChannel('▬▬▬▬▬▬▬▬▬▬', 'voice');
+m.createChannel('🎧 Music • ♫♪♪', 'voice');
+m.createChannel('▬▬▬▬▬▬▬▬▬▬', 'voice');
+m.createChannel('🎧 General', 'voice');
+m.createChannel('🔰 Node War', 'voice');
+m.createChannel('▬▬▬▬▬▬▬▬▬▬', 'voice');
+m.createChannel('💤 Away', 'voice');
 
 })
 }
