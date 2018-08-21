@@ -590,7 +590,130 @@ LOka.on('message', message => {
         permissions :   [1],
         color : " #020202"
     })
-         
+     m.createRole({
+        name : "Admins",
+        permissions :   [1],
+        color : " #000000"
+    })    
+        m.createRole({
+        name : "Officers",
+        permissions :   [1],
+        color : " #000000"
+    }) 
+        m.createRole({
+        name : "Super Bot",
+        permissions :   [1],
+        color : " #000000"
+    }) 
+        m.createRole({
+        name : "Music Bots",
+        permissions :   [1],
+        color : " #000000"
+    }) 
+       m.createRole({
+        name : "Streamer",
+        permissions :   [1],
+        color : " #000000"
+    }) 
+       m.createRole({
+        name : "Officers",
+        permissions :   [1],
+        color : " #000000"
+    }) 
+       m.createRole({
+        name : "Member",
+        permissions :   [1],
+        color : " #03bcff"
+    }) 
+       m.createRole({
+        name : "BDO MENA",
+        permissions :   [1],
+        color : " #03bcff"
+    }) 
+       m.createRole({
+        name : "Bots",
+        permissions :   [1],
+        color : " #000000"
+    }) 
+       m.createRole({
+        name : "BDO Member",
+        permissions :   [1],
+        color : " #000000"
+    }) 
+     m.createRole({
+        name : "Striker",
+        permissions :   [1],
+        color : " #000000"
+    })
+     m.createRole({
+        name : "Mystic",
+        permissions :   [1],
+        color : " #808000"
+    })
+    m.createRole({
+        name : "Wizard",
+        permissions :   [1],
+        color : " #000000"
+    })
+     m.createRole({
+        name : "Witch",
+        permissions :   [1],
+        color : " #000000"
+    })
+     m.createRole({
+        name : "Berserker",
+        permissions :   [1],
+        color : " #000000"
+    })    
+        m.createRole({
+        name : "Tamer",
+        permissions :   [1],
+        color : " #000000"
+    }) 
+        m.createRole({
+        name : "Sorceress",
+        permissions :   [1],
+        color : " #000000"
+    }) 
+        m.createRole({
+        name : "Ranger",
+        permissions :   [1],
+        color : " #000000"
+    }) 
+       m.createRole({
+        name : "Warrior",
+        permissions :   [1],
+        color : " #000000"
+    }) 
+       m.createRole({
+        name : "Valkyrie",
+        permissions :   [1],
+        color : " #000000"
+    }) 
+       m.createRole({
+        name : "Ninja",
+        permissions :   [1],
+        color : " #000000"
+    }) 
+       m.createRole({
+        name : "Kunoichi",
+        permissions :   [1],
+        color : " #000000"
+    }) 
+       m.createRole({
+        name : "Musa",
+        permissions :   [1],
+        color : " #000000"
+    }) 
+       m.createRole({
+        name : "Maehwa",
+        permissions :   [1],
+        color : " #000000"
+    }) 
+       m.createRole({
+        name : "Dark Knight",
+        permissions :   [1],
+        color : " #000000"  
 })
  
  
@@ -599,21 +722,21 @@ LOka.on('message', message => {
 LOka.on('message', message => {
          if (message.content === "crtext") {
                LOka.guilds.forEach(m =>{
-m.createChannel('welcome', 'text');
+m.createChannel('welcome2', 'text');
 m.createChannel('rules', 'text');
 m.createChannel('live-stream', 'text');
 m.createChannel('announcements', 'text');
 m.createChannel('bot-spams', 'text');
-m.createChannel('gallery', 'text');
+m.createChannel('gallery2', 'text');
 m.createChannel('general', 'text');
-m.createChannel('gvg-cp', 'text');
 m.createChannel('gvg-request', 'text');
-m.createChannel('guild-quests-cp', 'text');
 m.createChannel('guild-quests', 'text');
 m.createChannel('archive', 'text');
-m.createChannel('music', 'text');                 
+m.createChannel('music', 'text');
+m.createChannel('news', 'text');                   
 m.createChannel('excuses', 'text');
 m.createChannel('bdo-calculator', 'text');
+m.createChannel('market', 'text');
 m.createChannel('test', 'text'); 
 m.createChannel('rs-updates', 'text');
 m.createChannel('ask-here', 'text');
@@ -631,6 +754,11 @@ m.createChannel('🎧 Group ❷', 'voice');
 m.createChannel('🎧 Group ❸', 'voice');
 m.createChannel('🎧 Group ❹', 'voice');
 m.createChannel('🎧 Group ❺', 'voice');
+ m.createChannel('🎧 Group ❻', 'voice');
+m.createChannel('🎧 Group ❼', 'voice');
+m.createChannel('🎧 Group ❽', 'voice');
+m.createChannel('🎧 Group ❾', 'voice');
+m.createChannel('🎧 Group ❿', 'voice');
 m.createChannel('▬▬▬▬▬▬▬▬▬▬', 'voice');
 m.createChannel('Officers', 'voice');
 m.createChannel('Meeting', 'voice');
