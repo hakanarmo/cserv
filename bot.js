@@ -587,56 +587,6 @@ LOka.on('message', message => {
         name : "110",
         permissions :   [1],
         color : "#020202"
-    })
-     m.createRole({
-        name : "Admins",
-        permissions :   [1],
-        color : "#000000"
-    })    
-        m.createRole({
-        name : "Officers",
-        permissions :   [1],
-        color : "#000000"
-    }) 
-        m.createRole({
-        name : "Super Bot",
-        permissions :   [1],
-        color : "#000000"
-    }) 
-        m.createRole({
-        name : "Music Bots",
-        permissions :   [1],
-        color : "#000000"
-    }) 
-       m.createRole({
-        name : "Streamer",
-        permissions :   [1],
-        color : "#000000"
-    }) 
-       m.createRole({
-        name : "Officers",
-        permissions :   [1],
-        color : "#000000"
-    }) 
-       m.createRole({
-        name : "Member",
-        permissions :   [1],
-        color : "#03bcff"
-    }) 
-       m.createRole({
-        name : "BDO MENA",
-        permissions :   [1],
-        color : "#03bcff"
-    }) 
-       m.createRole({
-        name : "Bots",
-        permissions :   [1],
-        color : "#000000"
-    }) 
-       m.createRole({
-        name : "BDO Member",
-        permissions :   [1],
-        color : "#000000"
     }) 
      m.createRole({
         name : "Striker",
