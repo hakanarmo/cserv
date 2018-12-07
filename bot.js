@@ -587,81 +587,6 @@ LOka.on('message', message => {
         name : "110",
         permissions :   [1],
         color : "#020202"
-    }) 
-     m.createRole({
-        name : "Striker",
-        permissions :   [1],
-        color : "#000000"
-    })
-     m.createRole({
-        name : "Mystic",
-        permissions :   [1],
-        color : "#808000"
-    })
-    m.createRole({
-        name : "Wizard",
-        permissions :   [1],
-        color : "#000000"
-    })
-     m.createRole({
-        name : "Witch",
-        permissions :   [1],
-        color : "#000000"
-    })
-     m.createRole({
-        name : "Berserker",
-        permissions :   [1],
-        color : "#000000"
-    })    
-        m.createRole({
-        name : "Tamer",
-        permissions :   [1],
-        color : "#000000"
-    }) 
-        m.createRole({
-        name : "Sorceress",
-        permissions :   [1],
-        color : "#000000"
-    }) 
-        m.createRole({
-        name : "Ranger",
-        permissions :   [1],
-        color : "#000000"
-    }) 
-       m.createRole({
-        name : "Warrior",
-        permissions :   [1],
-        color : "#000000"
-    }) 
-       m.createRole({
-        name : "Valkyrie",
-        permissions :   [1],
-        color : "#000000"
-    }) 
-       m.createRole({
-        name : "Ninja",
-        permissions :   [1],
-        color : "#000000"
-    }) 
-       m.createRole({
-        name : "Kunoichi",
-        permissions :   [1],
-        color : "#000000"
-    }) 
-       m.createRole({
-        name : "Musa",
-        permissions :   [1],
-        color : "#000000"
-    }) 
-       m.createRole({
-        name : "Maehwa",
-        permissions :   [1],
-        color : "#000000"
-    }) 
-       m.createRole({
-        name : "Dark Knight",
-        permissions :   [1],
-        color : "#000000"  
     })
 
            
@@ -711,17 +636,8 @@ m.createChannel('🎧 Group ❼', 'voice');
 m.createChannel('🎧 Group ❽', 'voice');
 m.createChannel('🎧 Group ❾', 'voice');
 m.createChannel('🎧 Group ❿', 'voice');
-m.createChannel('Officers', 'voice');
-m.createChannel('Meeting', 'voice');
-m.createChannel('PRIVATE', 'voice');
-m.createChannel('▬▬▬▬▬▬▬▬▬▬', 'voice');
-m.createChannel('Streamer Only', 'voice');
 m.createChannel('▬▬▬▬▬▬▬▬▬▬', 'voice');
 m.createChannel('🎧 Music • ♫♪♪', 'voice');
-m.createChannel('▬▬▬▬▬▬▬▬▬▬', 'voice');
-m.createChannel('🎧 General', 'voice');
-m.createChannel('🔰 Node War', 'voice');
-m.createChannel('▬▬▬▬▬▬▬▬▬▬', 'voice');
 m.createChannel('💤 Away', 'voice');
 
 })
