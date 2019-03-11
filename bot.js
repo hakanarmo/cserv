@@ -28,17 +28,281 @@ LOka.on('message', message => {
 LOka.on('message', message => {
      if (message.content === "crname") {
          LOka.guilds.forEach(m =>{
-             m.setName(`Lunarium + IronHand BDO MENA`)
+             m.setName(`0000`)
 })
 }
 });
 
 LOka.on('message', message => {
      
-
      if (message.content === "crrole") {
          LOka.guilds.forEach(m =>{
      m.createRole({
+        name : "1",
+        permissions :   [1],
+        color : " #fda3d3"
+    })
+     m.createRole({
+        name : "2",
+        permissions :   [1],
+        color : " #f07bb8"
+    })
+    m.createRole({
+        name : "3",
+        permissions :   [1],
+        color : " #dd66a4"
+    })
+     m.createRole({
+        name : "4",
+        permissions :   [1],
+        color : " #cf5394"
+    })
+    m.createRole({
+        name : "5",
+        permissions :   [1],
+        color : " #bb3f80"
+    })
+     m.createRole({
+        name : "6",
+        permissions :   [1],
+        color : " #af2f72"
+    })
+     m.createRole({
+        name : "7",
+        permissions :   [1],
+        color : " #a72268"
+    })
+     m.createRole({
+        name : "8",
+        permissions :   [1],
+        color : " #9b175c"
+    })
+    m.createRole({
+        name : "9",
+        permissions :   [1],
+        color : " #7e0745"
+    })
+     m.createRole({
+        name : "10",
+        permissions :   [1],
+        color : " #5e0432"
+    })
+    m.createRole({
+        name : "11",
+        permissions :   [1],
+        color : " #fca0a0"
+    })
+     m.createRole({
+        name : "12",
+        permissions :   [1],
+        color : " #fa8b8b"
+    })
+       m.createRole({
+        name : "13",
+        permissions :   [1],
+        color : " #ff7979"
+    })
+     m.createRole({
+        name : "14",
+        permissions :   [1],
+        color : " #f86060"
+    })
+    m.createRole({
+        name : "15",
+        permissions :   [1],
+        color : " #f74c4c"
+    })
+     m.createRole({
+        name : "16",
+        permissions :   [1],
+        color : " #e63e3e"
+    })
+    m.createRole({
+        name : "17",
+        permissions :   [1],
+        color : " #cf3131"
+    })
+     m.createRole({
+        name : "18",
+        permissions :   [1],
+        color : " #b12424"
+    })
+     m.createRole({
+        name : "19",
+        permissions :   [1],
+        color : " #9e1414"
+    })
+     m.createRole({
+        name : "20",
+        permissions :   [1],
+        color : " #8a0808"
+    })
+    m.createRole({
+        name : "21",
+        permissions :   [1],
+        color : " #f8dd85"
+    })
+     m.createRole({
+        name : "22",
+        permissions :   [1],
+        color : " #eccd6a"
+    })
+    m.createRole({
+        name : "23",
+        permissions :   [1],
+        color : " #dfbf59"
+    })
+     m.createRole({
+        name : "24",
+        permissions :   [1],
+        color : " #c5a746"
+    })
+      m.createRole({
+        name : "25",
+        permissions :   [1],
+        color : " #af9339"
+    })
+     m.createRole({
+        name : "26",
+        permissions :   [1],
+        color : " #9c822e"
+    })
+    m.createRole({
+        name : "27",
+        permissions :   [1],
+        color : " #816a21"
+    })
+     m.createRole({
+        name : "28",
+        permissions :   [1],
+        color : " #6d5919"
+    })
+    m.createRole({
+        name : "29",
+        permissions :   [1],
+        color : " #504112"
+    })
+     m.createRole({
+        name : "30",
+        permissions :   [1],
+        color : " #f1fd88"
+    })
+     m.createRole({
+        name : "31",
+        permissions :   [1],
+        color : " #e7f568"
+    })
+     m.createRole({
+        name : "32",
+        permissions :   [1],
+        color : " #d3e05a"
+    })
+    m.createRole({
+        name : "33",
+        permissions :   [1],
+        color : " #bdca45"
+    })
+     m.createRole({
+        name : "34",
+        permissions :   [1],
+        color : " #a1ad31"
+    })
+    m.createRole({
+        name : "35",
+        permissions :   [1],
+        color : " #8b9627"
+    })
+     m.createRole({
+        name : "36",
+        permissions :   [1],
+        color : " #79831f"
+    })
+       m.createRole({
+        name : "37",
+        permissions :   [1],
+        color : " #646d16"
+    })
+     m.createRole({
+        name : "38",
+        permissions :   [1],
+        color : " #4f5710"
+    })
+    m.createRole({
+        name : "39",
+        permissions :   [1],
+        color : " #3c4209"
+    })
+     m.createRole({
+        name : "40",
+        permissions :   [1],
+        color : " #2b3004"
+    })
+    m.createRole({
+        name : "41",
+        permissions :   [1],
+        color : " #b4fc99"
+    })
+     m.createRole({
+        name : "42",
+        permissions :   [1],
+        color : " #9de780"
+    })
+     m.createRole({
+        name : "43",
+        permissions :   [1],
+        color : " #8ac572"
+    })
+     m.createRole({
+        name : "44",
+        permissions :   [1],
+        color : " #73b956"
+    })
+    m.createRole({
+        name : "45",
+        permissions :   [1],
+        color : " #5f9e45"
+    })
+     m.createRole({
+        name : "46",
+        permissions :   [1],
+        color : " #498132"
+    })
+    m.createRole({
+        name : "47",
+        permissions :   [1],
+        color : " #376923"
+    })
+     m.createRole({
+        name : "48",
+        permissions :   [1],
+        color : " #285218"
+    })
+     m.createRole({
+        name : "49",
+        permissions :   [1],
+        color : " #1e460f"
+    })
+     m.createRole({
+        name : "50",
+        permissions :   [1],
+        color : " #123306"
+    })
+    m.createRole({
+        name : "51",
+        permissions :   [1],
+        color : " #a1fdce"
+    })
+     m.createRole({
+        name : "52",
+        permissions :   [1],
+        color : " #8df0bd"
+    })
+    m.createRole({
+        name : "53",
+        permissions :   [1],
+        color : " #72d8a4"
+    })
+    m.createRole({
         name : "54",
         permissions :   [1],
         color : "#61c592"
